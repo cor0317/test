@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    
+}
+header h1 img{
+    width: 200px;
+position: absolute
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 40px;
+    background: #7b422e;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    
+    }
+    nav a{
+        display: block;
+        text-align: center;
+    }
+    nav .depth2 a{
+        text-align: left;
+        padding: 5px;
+        font-size: 0.85em;
+        color: #7b422e;
+    }
+    nav .depth1 > li > a{
+    color: white;
+    }
+    nav ul.depth1 > li{
+        float: left;
+        width: 25%;
+    }
+    nav ul.depth2{
+        margin-top: 8px;
+        background: #fff;
+    }
+    section.slider{
+        position: relative;
+        width:1200px;
+        height:500px;
+        overflow: hidden;
+    }
+
+    .slider >.sliders{
+        /*이미지크기 */
+        width:300%;
+    /*다음이미지-이미지크기*번호*/
+    /*모션추가*/
+      transition: 0.5s;
+      margin-left:0px;
+
+    }
+    .slider>.sliders img {
+        width: 33.33%;
+        float: left;
+
+    }
+    .slider .icon{
+       
+    }
+    #contents1{
+        line-height: 2em;
+        width: 393.3px;
+        height: 220px;
+        float: left;
+        margin-top: 30px;
+        margin-right: 10px;
+        padding: 20px;
+        background: #bb692d;
+        font-size: 12px;
+    }
+    #contents2{
+        width: 393.3px;
+        height: 220px;
+        float: left;
+        margin-top: 30px;
+        margin-right: 10px;
+        padding: 15px;
+        font-size: 12px;
+        background: #bb692d;
+    }
+    #contents2 img{
+        width: 32.3%;
+        height: 90px;
+    }
+    #contents3{
+        width: 393.3px;
+        height: 220px;
+        overflow: hidden;
+        margin-top: 30px;
+        background: #bb692d;
+    }
+#main-footer{
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+    background: #efefef;
+    margin-top: 20px;
+    
+}
+
+#main-footer .footer-logo a img{
+    float: left;
+    width: 150px;
+}
+.footer-text{
+    float: left;
+    width: 850px;
+    font-size: 15px;
+}
+#main-footer .site a img{
+width: 150px;
+}
